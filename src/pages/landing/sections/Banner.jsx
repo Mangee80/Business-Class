@@ -213,7 +213,7 @@ const SearchButton = styled.button`
  * Hero Section - Premium Banner with Search Overlay
  * Auto-scrolling background images with floating search form
  */
-const Hero = () => {
+const Banner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Premium aviation images (using placeholder service)
@@ -302,4 +302,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Banner;

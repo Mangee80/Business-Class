@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero, SearchForm, TrustSection } from './sections';
+import { Banner, ServicesSection, TrustSection } from './sections';
 
 /**
  * Landing Page
@@ -9,8 +9,8 @@ import { Hero, SearchForm, TrustSection } from './sections';
 const Landing = () => {
   return (
     <>
-      <Hero />
-      <SearchForm />
+      <Banner />
+      <ServicesSection />
       <TrustSection />
     </>
   );
