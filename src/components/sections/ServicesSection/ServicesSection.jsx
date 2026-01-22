@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Container from '../../../components/common/Container/Container';
+import Container from '../../common/Container/Container';
 
 const ServicesSectionWrapper = styled.section`
   padding: ${({ theme }) => theme.spacing.xxl} 0;
@@ -158,3 +158,4 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
+

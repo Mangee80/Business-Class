@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, ServicesSection, TrustSection } from './sections';
+import { Banner, ServicesSection, TrustSection } from '../../components/sections';
 
 /**
  * Landing Page
