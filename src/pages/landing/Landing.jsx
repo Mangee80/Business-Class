@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, ServicesSection, TrustSection } from '../../components/sections';
+import { Banner, ServicesSection, TrustSection, DestinationsSection } from '../../components/sections';
 
 /**
  * Landing Page
@@ -10,8 +10,9 @@ const Landing = () => {
   return (
     <>
       <Banner />
-      <ServicesSection />
       <TrustSection />
+      <ServicesSection />
+      {/* <DestinationsSection /> */}
     </>
   );
 };
