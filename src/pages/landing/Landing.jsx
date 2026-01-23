@@ -1,5 +1,14 @@
 import React from 'react';
-import { Banner, ServicesSection, TrustSection, DestinationsSection } from '../../components/sections';
+import { 
+  Banner, 
+  ServicesSection, 
+  TrustSection, 
+  DestinationsSection,
+  PartnersSection,
+  PromoSectionOne,
+  TestimonialsSection,
+  ContactSection
+} from '../../components/sections';
 
 /**
  * Landing Page
@@ -11,7 +20,11 @@ const Landing = () => {
     <>
       <Banner />
       <TrustSection />
+      <PartnersSection />
+      <PromoSectionOne />
       <ServicesSection />
+      <TestimonialsSection />
+      <ContactSection />
       {/* <DestinationsSection /> */}
     </>
   );

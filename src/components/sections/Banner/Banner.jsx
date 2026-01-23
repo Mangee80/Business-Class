@@ -22,7 +22,7 @@ const BannerSlide = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90vh;
   opacity: ${({ $active }) => ($active ? 1 : 0)};
   transition: opacity 2000ms ease-in-out;
   background-image: url(${({ $image }) => $image});
@@ -218,10 +218,7 @@ const Banner = () => {
 
   // Premium aviation images (using placeholder service)
   const bannerImages = [
-    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&q=80',
-    'https://images.unsplash.com/photo-1583551907901-43a1c87c7e87?w=1920&q=80',
-    'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=1920&q=80',
-  ];
+    'Images/ref.jpg.jpeg'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -303,3 +300,4 @@ const Banner = () => {
 };
 
 export default Banner;
+
